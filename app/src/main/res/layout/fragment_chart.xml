@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context="com.example.dell.elixir.Activities.Ubidots_Activity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Line Graph"/>
+
+    <!-- TODO: Update blank fragment layout
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chartTemp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    -->
+    <WebView
+        android:id="@+id/webview_chart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:text="X-Axis = timestamp "/>
+
+    <TextView
+        android:id="@+id/txt_yaxis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Y-Axis = "/>
+
+
+
+
+
+</LinearLayout>

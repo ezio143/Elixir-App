@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_centerInParent="true"
+    android:id="@+id/about_layout"
+    android:layout_width="300dp"
+    android:layout_height="325dp"
+    >
+
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/splash_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_black"
+        android:padding="48dp"
+
+        android:src="@drawable/icon_elixir" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="This Project aims to provide a
+ cognification approach to solve the
+ Contamination of Lakes using Iot, Cloud and BigData."
+        android:textSize="14dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="8dp"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:textColor="#ea94c7"
+        android:text="by students of CSE Department
+Dr AIT "
+        android:textSize="14dp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
+
+</RelativeLayout>
